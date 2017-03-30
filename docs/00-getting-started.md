@@ -59,6 +59,7 @@ cd ~/torch
 # https://github.com/torch/distro : set env to use lua
 TORCH_LUA_VERSION=LUA52 ./install.sh
 ```
+source ~/torch/install/bin/torch-activate
 
 New packages can be installed using Luarocks from the command-line:
 
